@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<bookcategories>
+		<category name="Fiction">
+			<subitem name="Fantasy"></subitem>
+			<subitem name="Science"></subitem>
+			<subitem name="Historical"></subitem>
+			<subitem name="Realistic"></subitem>
+			<subitem name="Crime"></subitem>
+		</category>
+		<category name="NonFiction">
+			<subItem name="Narrative"></subItem>
+			<subItem name="Biography"></subItem>
+			<subItem name="Periodicals"></subItem>
+			<subItem name="Self-Help"></subItem>
+			<subItem name="Reference"></subItem>
+			<subItem name="Textbook"></subItem>
+			<subItem name="Speech"></subItem>
+			<subItem name="Essay"></subItem>
+			<subItem name="Memoir"></subItem>
+		</category>
+	</bookcategories>
