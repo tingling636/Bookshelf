@@ -1,0 +1,14 @@
+{
+	"categoty":[
+			{
+				"name":"Fiction",
+				"items":["Fantasy","Science","Historical","Realistic","Crime"]
+			},
+			{
+				"name":"Non Fiction",
+				"items":["Narrative","Biography","Periodicals","Business and Leadership","Self-Help","Reference","Textbook","Speech","Essay","Memoir"]
+			}
+		],
+	
+	"language":["English","Chinese","Spanish","Hindi","Arabi","French","Portuguese"]
+}

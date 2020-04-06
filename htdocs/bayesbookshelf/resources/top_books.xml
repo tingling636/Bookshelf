@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topbook>
+	<book lang="en">
+		<title>Algorithms to Live By</title>
+		<author>Brian Christian, Tom Griffiths</author>
+		<imageUrl>/resources/images/algorithms_to_live_by.jpg</imageUrl>
+		<language>English</language>
+		<snippet>They explain how to have better hunches and when to leave things to chance, how to deal with overwhelming choices and how best to connect with others.</snippet>
+	</book>
+	<book lang="zh">
+		<title>我是猫</title>
+		<author>夏目漱石</author>
+		<imageUrl>/resources/images/im_a_cat.jpg</imageUrl>
+		<language>Chinese</language>
+		<snippet>一只善于思索、有见识、富有正义感又具有文人气质、但至死也没有学会捕捉老鼠的猫</snippet>
+	</book>	
+	<book lang="en">	
+		<title>The Book Thief</title>
+		<author>Markus Zusak</author>
+		<imageUrl>/resources/images/the_book_thief.jpg</imageUrl>
+		<language>English</language>
+		<snippet>The country is holding its breath. Death has never been busier, and will be busier still.</snippet>
+	</book>
+	<book lang="en">
+		<title>The Interlligent Investor</title>
+		<author>Benjamin Graham</author>
+		<imageUrl>/resources/images/the_intelligent_investor.jpg</imageUrl>
+		<language>English</language>
+		<snippet>It is the most important book you will ever read on making the right decisions to protect your investments and make them a success.</snippet>
+	</book>
+</topbook>

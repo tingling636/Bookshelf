@@ -27,7 +27,7 @@
 				}
 				echo json_encode($subcat) ;
 			?>;
-			alert(sublist);
+			
 			var cSelect = document.getElementById('bsubcategory'); 
 			var len=cSelect.options.length; 
 			while (cSelect.options.length > 0) { 
@@ -66,7 +66,7 @@
 		<div class="card">
 			<h6 class="card-header text-center">Share A Book</h6>
 		</div>
-			<form method="post" action="<?php echo site_url('index.php/savebook');?>" enctype="multipart/form-data">
+			<form method="post" action="<?php echo base_url('index.php/savebook');?>" enctype="multipart/form-data">
 			<div class="input-group mb-2">
 				<div class="input-group-prepend" >
 					<span class="input-group-text"> Title</span>

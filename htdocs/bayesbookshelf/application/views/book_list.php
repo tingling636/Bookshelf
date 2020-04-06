@@ -22,7 +22,7 @@
 						echo "<div class='col-sm-3 py-2'>";
 						echo "<div class='card flex-fill h-100'>";
 						if($image == null)
-							echo " <img class='card-img-top' src='/resources/images/image-not-available.png' alt='Card image'>";
+							echo " <img class='card-img-top' src='".base_url('/resources/images/image-not-available.png')."' alt='Card image'>";
 						else
 							echo "<img class='card-img-top' src='data:image/jpeg;base64,".base64_encode($image)."'/>";
 						//echo " <img class='card-img-top' src='"/resources/images/image-not-available.png"' alt='Card image'>";
@@ -30,7 +30,7 @@
 						echo "		<h5>{$book->bookTitle}</h5>";
 						echo "		<p> - by {$book->author}</p>";
 						echo " </div>";
-						echo " <div class='card-footer text-center'><a href='".site_url('index.php/Book/viewBook/').$book->id."' class='btn btn-primary'>More</a></div>";
+						echo " <div class='card-footer text-center'><a href='".base_url('index.php/viewbook/').$book->id."' class='btn btn-primary'>More</a></div>";
 						echo "</div></div>";
 						$index++;
 					}else{

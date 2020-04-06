@@ -23,9 +23,9 @@
 			<?php 
 				$image = $data[0]->photo;
 				if($image == null)
-					echo " <img class='card-img-top' src='/resources/images/image-not-available.png' alt='Card image'>";
+					echo " <img class='card-img-top' src='".base_url('/resources/images/image-not-available.png')."' alt='Card image'>";
 				else
-					echo "<img class='card-img-top' src='data:image/jpeg;base64,".base64_encode($image)."'/>";
+					echo "<img class='card-img-top' src='data:image/jpeg;base64,".base64_encode($image)."'/>"; 
 			?>
 		</div>
 		<div class="col-sm-6">
